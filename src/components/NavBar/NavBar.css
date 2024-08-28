@@ -1,0 +1,46 @@
+.NavBar label {
+    font-weight: bold;
+    color: white;
+
+}
+.NavBar {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: darksalmon;
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    height: 70px;
+    margin: 0 auto 50px;
+    border-radius: 10px;
+}
+
+.NavBar .icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #700e26;
+}
+
+.NavBar button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    color: #dfbbc5;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background: #700e26;
+    transition: 0.2s;
+}
+
+.NavBar button:hover {
+    width: 125px;
+    height: 40px;
+    font-size: 17px;
+}
+
